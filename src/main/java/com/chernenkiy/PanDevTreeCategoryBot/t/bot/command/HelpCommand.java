@@ -16,6 +16,7 @@ public class HelpCommand implements BotCommand {
     /**
      * Команда для отображения списка доступных команд.
      */
+
     @Override
     public void execute(DefaultAbsSender sender, Update update) {
         String helpMessage = """
